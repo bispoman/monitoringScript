@@ -9,7 +9,7 @@ with open('bairrosReport.csv', 'w', newline='') as f:
 
     while True:
         startTime = time.time()
-        while startTime < startTime+60: 
+        while time.time() < startTime+60: 
             status2 = 0
             status4 = 0
             status5 = 0
