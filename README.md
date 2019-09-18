@@ -8,9 +8,9 @@ If by the end of said minute the count of 4xx and 5xx is greater than the count 
 
 
 To run this script you'll need the following dependencies: 
-requests
-time
-datetime
+requests,
+time,
+datetime,
 csv
 
 All of them can be installed via PIP or your favorite package manager.
